@@ -770,6 +770,9 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-63 {
+    height: calc(var(--spacing) * 63);
+  }
   .h-screen {
     height: 100vh;
   }
